@@ -9,9 +9,7 @@ class Book:
 
 class Library:
     def __init__(self):
-        # Dictionary to store books {book_id: Book_object}
         self.books = {}
-        # List of dictionaries to store issued book records
         self.issued_books = []
 
     def add_book(self):
